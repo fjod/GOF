@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace GOF.Behavioral.Strategy
 {
     //such class does not know anything about how to print (read,write,calc etc)
-    //it only needs to print some message. somehow
+    //it only needs to print some message. somehow (read something, calc something)
     //pattern does not specify how the class gets IStrategyInterface instances
     class PrintProcessor 
     {

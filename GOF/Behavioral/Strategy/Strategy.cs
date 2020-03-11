@@ -15,7 +15,7 @@ namespace GOF.Behavioral.Strategy
 
         public void Name()
         {
-            Console.WriteLine("Strategy");
+            Console.WriteLine("Strategy pattern");
         }
     }
 }

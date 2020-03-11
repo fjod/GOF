@@ -1,4 +1,6 @@
-﻿using GOF.Behavioral.Strategy;
+﻿using System;
+using GOF.Behavioral.Strategy;
+using GOF.Behavioral.TemplateMethod;
 using Ninject;
 
 namespace GOF
@@ -13,6 +15,7 @@ namespace GOF
             {
                 patternTest.Name();
                 patternTest.Implement();
+                Console.WriteLine("--------------------");
             }
         }
 
@@ -20,6 +23,7 @@ namespace GOF
         {
             _kernel = new StandardKernel();
             _kernel.Bind<IPatternTest>().To<Strategy>();
+            _kernel.Bind<IPatternTest>().To<TemplateMethodConcrete>();
         }
     }
 }
