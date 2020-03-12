@@ -1,7 +1,9 @@
 ﻿using System;
+using GOF.Behavioral.Mediator;
 using GOF.Behavioral.Strategy;
 using GOF.Behavioral.TemplateMethod;
 using Ninject;
+using Ninject.Extensions.Conventions;
 
 namespace GOF
 {
@@ -22,8 +24,10 @@ namespace GOF
         static void Injector()
         {
             _kernel = new StandardKernel();
-            _kernel.Bind<IPatternTest>().To<Strategy>();
-            _kernel.Bind<IPatternTest>().To<TemplateMethodConcrete>();
+            _kernel.Bind(
+                x => x.FromThisAssembly()
+                    .SelectAllClasses().BindAllInterfaces()
+                    );
         }
     }
 }
