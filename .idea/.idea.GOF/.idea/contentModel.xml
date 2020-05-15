@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\study\GOF" t="IncludeFlat">
+      <e p="GOF" t="IncludeRecursive">
+        <e p="Behavioral" t="Include">
+          <e p="Iterator" t="Include">
+            <e p="ConcreteIterator.cs" t="Include" />
+            <e p="ConcreteIterator2.cs" t="Include" />
+            <e p="Iterator.cs" t="Include" />
+          </e>
+          <e p="Mediator" t="Include">
+            <e p="ConcreteCollegue1.cs" t="Include" />
+            <e p="ConcreteCollegue2.cs" t="Include" />
+            <e p="IGetLine.cs" t="Include" />
+            <e p="IPrintLine.cs" t="Include" />
+            <e p="Mediator.cs" t="Include" />
+          </e>
+          <e p="Observer" t="Include">
+            <e p="ConcreteSubject.cs" t="Include" />
+            <e p="ConcreteVanillaObserver.cs" t="Include" />
+            <e p="ISubject.cs" t="Include" />
+            <e p="IVanillaObserver.cs" t="Include" />
+            <e p="Observer.cs" t="Include" />
+          </e>
+          <e p="Strategy" t="Include">
+            <e p="ConcretePrinterA.cs" t="Include" />
+            <e p="ConcretePrinterB.cs" t="Include" />
+            <e p="ConcretePrinterC.cs" t="Include" />
+            <e p="IPrintMessage.cs" t="Include" />
+            <e p="PrintProcessor.cs" t="Include" />
+            <e p="Strategy.cs" t="Include" />
+          </e>
+          <e p="TemplateMethod" t="Include">
+            <e p="TemplateMethodBase.cs" t="Include" />
+            <e p="TemplateMethodConcrete.cs" t="Include" />
+          </e>
+          <e p="Visitor" t="Include">
+            <e p="ConcreteClientA.cs" t="Include" />
+            <e p="ConcreteClientB.cs" t="Include" />
+            <e p="ConcreteElementA.cs" t="Include" />
+            <e p="ConcreteElementB.cs" t="Include" />
+            <e p="ConcreteElementBase.cs" t="Include" />
+            <e p="ConcreteElementC.cs" t="Include" />
+            <e p="IVisitor.cs" t="Include" />
+            <e p="VisitiorImpl.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Creational" t="Include">
+          <e p="Singletone" t="Include">
+            <e p="AmbientContext.cs" t="Include" />
+            <e p="LazySingleton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="GOF.csproj" t="IncludeRecursive" />
+        <e p="IPatternTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="GOF.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="GOF.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_GOF.1171962114.00" t="ExcludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+  </component>
+</project>
