@@ -8,9 +8,14 @@ namespace GOF.Creational.Singletone
 
         public static Lazy<LazySingleton> Instance => _instance;
 
+        public LazySingleton()
+        {
+            Instance.Value.Implement();
+        }
+
         public void Implement()
         {
-            Console.WriteLine("SingleTone pattern");
+            Console.WriteLine("Print singletone");
         }
 
         public void Name()

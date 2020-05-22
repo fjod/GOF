@@ -48,6 +48,20 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Creational" t="Include">
+          <e p="AbstractFactory" t="Include">
+            <e p="AbstractFactory.cs" t="Include" />
+            <e p="Cliient.cs" t="Include" />
+            <e p="ConcreteFactory1.cs" t="Include" />
+            <e p="ConcreteFactory2.cs" t="Include" />
+            <e p="FactoryForFactories.cs" t="Include" />
+            <e p="GenericFactory.cs" t="Include" />
+            <e p="IPrinter.cs" t="Include" />
+            <e p="IPrinterA.cs" t="Include" />
+            <e p="IPrinterB.cs" t="Include" />
+            <e p="PrinterA.cs" t="Include" />
+            <e p="PrinterA2.cs" t="Include" />
+            <e p="PrinterB.cs" t="Include" />
+          </e>
           <e p="Singletone" t="Include">
             <e p="AmbientContext.cs" t="Include" />
             <e p="LazySingleton.cs" t="Include" />
