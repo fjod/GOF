@@ -54,7 +54,9 @@
             <e p="ConcreteFactory1.cs" t="Include" />
             <e p="ConcreteFactory2.cs" t="Include" />
             <e p="FactoryForFactories.cs" t="Include" />
-            <e p="GenericFactory.cs" t="Include" />
+            <e p="Generic" t="Include">
+              <e p="GenericFactory.cs" t="Include" />
+            </e>
             <e p="IPrinter.cs" t="Include" />
             <e p="IPrinterA.cs" t="Include" />
             <e p="IPrinterB.cs" t="Include" />
@@ -84,5 +86,6 @@
     <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_GOF.1171962114.00" t="ExcludeRecursive" />
     <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
   </component>
 </project>

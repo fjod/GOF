@@ -13,9 +13,12 @@ namespace GOF.Creational.AbstractFactory
             //or we can have factory for factories!
             FactoryForFactories ff = new FactoryForFactories();
             ff.GetFactory(2).CreatePrinterA().PrintText();
-            ff.GetFactory(2).CreatePrinterB().PrintText();
+            ff.GetFactory(1).CreatePrinterB().PrintText();
             
             //or even move it to generic
+            var factory = new Generic.GenericFactory<ConcreteFactory1>();
+            var printerA = factory.Create<IPrinterA>();
+            (printerA as IPrinterA).PrintText();
         }
 
         public void Name()
