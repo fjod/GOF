@@ -64,6 +64,13 @@
             <e p="PrinterA2.cs" t="Include" />
             <e p="PrinterB.cs" t="Include" />
           </e>
+          <e p="FactoryMethod" t="Include">
+            <e p="Client.cs" t="Include" />
+            <e p="ConcretePrinterA.cs" t="Include" />
+            <e p="ConcretePrinterB.cs" t="Include" />
+            <e p="IPrintText.cs" t="Include" />
+            <e p="PrinterBase.cs" t="Include" />
+          </e>
           <e p="Singletone" t="Include">
             <e p="AmbientContext.cs" t="Include" />
             <e p="LazySingleton.cs" t="Include" />
