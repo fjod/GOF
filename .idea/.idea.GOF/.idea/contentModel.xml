@@ -91,6 +91,18 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Structural" t="Include">
+          <e p="Adapter" t="Include">
+            <e p="Adapter.cs" t="Include" />
+            <e p="AdapterForNewPrinter.cs" t="Include" />
+            <e p="AdapterForOldPrinter.cs" t="Include" />
+            <e p="IPrintAdapted.cs" t="Include" />
+            <e p="NewClassyPrinter.cs" t="Include" />
+            <e p="OldPrinter.cs" t="Include" />
+            <e p="PrintStringHolder.cs" t="Include" />
+            <e p="SomethingThatPrintsThings.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="GOF.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
