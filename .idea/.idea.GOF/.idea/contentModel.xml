@@ -102,6 +102,11 @@
             <e p="PrintStringHolder.cs" t="Include" />
             <e p="SomethingThatPrintsThings.cs" t="Include" />
           </e>
+          <e p="Facade" t="Include">
+            <e p="Facade.cs" t="Include" />
+            <e p="PrinterFacade.cs" t="Include" />
+            <e p="QuirkyPrinter.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="GOF.sln" t="IncludeFlat" />
