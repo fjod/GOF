@@ -102,6 +102,15 @@
             <e p="PrintStringHolder.cs" t="Include" />
             <e p="SomethingThatPrintsThings.cs" t="Include" />
           </e>
+          <e p="Decorator" t="Include">
+            <e p="Client.cs" t="Include" />
+            <e p="ConcreteDecorator.cs" t="Include" />
+            <e p="ConcretePrinter.cs" t="Include" />
+            <e p="Decorator.cs" t="Include" />
+            <e p="Pattern.cs" t="Include" />
+            <e p="Printer.cs" t="Include" />
+            <e p="SecondDecorator.cs" t="Include" />
+          </e>
           <e p="Facade" t="Include">
             <e p="Facade.cs" t="Include" />
             <e p="PrinterFacade.cs" t="Include" />
