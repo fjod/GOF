@@ -15,7 +15,8 @@
         public override void Print()
         {
             //some additional code should be here 
-            //measure stuff
+            //like caching result, logging, benchmark,
+            //access rights
             //or if it's even possible to call it at all
             _printer?.Print();
         }
