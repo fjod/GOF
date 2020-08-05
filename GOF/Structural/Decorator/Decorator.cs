@@ -14,7 +14,9 @@
 
         public override void Print()
         {
-            //some additional code may be here
+            //some additional code should be here 
+            //measure stuff
+            //or if it's even possible to call it at all
             _printer?.Print();
         }
     }
