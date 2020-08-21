@@ -5,7 +5,7 @@ namespace GOF.Structural.Proxy
     public abstract class ProxyBase<T>: IPrint where T:IPrint
     {
         private readonly T _print;
-
+        
         protected ProxyBase(T print)
         {
             _print = print;

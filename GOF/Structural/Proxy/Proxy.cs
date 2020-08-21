@@ -2,7 +2,7 @@
 {
     public class Proxy : ProxyBase<IPrint>
     {
-        public Proxy(IPrint print) : base(print)
+        public Proxy() : base(new RealSubject())
         {
            //some job might be done here too
         }

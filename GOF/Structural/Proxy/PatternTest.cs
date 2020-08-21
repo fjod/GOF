@@ -18,7 +18,7 @@ namespace GOF.Structural.Proxy
              Client client = new Client();
              var subj = new RealSubject();
              client.UsePrinter(subj);
-             client.UsePrinter(new Proxy(subj));
+             client.UsePrinter(new Proxy());
         }
 
         public void Name()
