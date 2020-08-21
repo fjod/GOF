@@ -125,6 +125,14 @@
             <e p="PrinterFacade.cs" t="Include" />
             <e p="QuirkyPrinter.cs" t="Include" />
           </e>
+          <e p="Proxy" t="Include">
+            <e p="Client.cs" t="Include" />
+            <e p="IPrint.cs" t="Include" />
+            <e p="PatternTest.cs" t="Include" />
+            <e p="Proxy.cs" t="Include" />
+            <e p="ProxyBase.cs" t="Include" />
+            <e p="RealSubject.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="GOF.sln" t="IncludeFlat" />
