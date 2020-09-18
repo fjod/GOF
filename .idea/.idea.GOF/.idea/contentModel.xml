@@ -36,14 +36,30 @@
             <e p="TemplateMethodConcrete.cs" t="Include" />
           </e>
           <e p="Visitor" t="Include">
-            <e p="ConcreteClientA.cs" t="Include" />
-            <e p="ConcreteClientB.cs" t="Include" />
-            <e p="ConcreteElementA.cs" t="Include" />
-            <e p="ConcreteElementB.cs" t="Include" />
-            <e p="ConcreteElementBase.cs" t="Include" />
-            <e p="ConcreteElementC.cs" t="Include" />
-            <e p="IVisitor.cs" t="Include" />
-            <e p="VisitiorImpl.cs" t="Include" />
+            <e p="Teplyakov" t="Include">
+              <e p="ConcreteClientA.cs" t="Include" />
+              <e p="ConcreteClientB.cs" t="Include" />
+              <e p="ConcreteElementA.cs" t="Include" />
+              <e p="ConcreteElementB.cs" t="Include" />
+              <e p="ConcreteElementBase.cs" t="Include" />
+              <e p="ConcreteElementC.cs" t="Include" />
+              <e p="ConcreteElementD.cs" t="Include" />
+              <e p="IVisitor.cs" t="Include" />
+              <e p="VisitiorImpl.cs" t="Include" />
+            </e>
+            <e p="ZoranHorvat" t="Include">
+              <e p="Car.cs" t="Include" />
+              <e p="CarDetailsVisitor.cs" t="Include" />
+              <e p="CarRegistration.cs" t="Include" />
+              <e p="CarRepository.cs" t="Include" />
+              <e p="CarToStringVisitor.cs" t="Include" />
+              <e p="Client.cs" t="Include" />
+              <e p="Engine.cs" t="Include" />
+              <e p="ExtensionForInterfaces.cs" t="Include" />
+              <e p="Seat.cs" t="Include" />
+              <e p="VisitorImpl.cs" t="Include" />
+              <e p="VisitorInterfaces.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
@@ -138,9 +154,9 @@
       <e p="GOF.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_GOF.1171962114.00" t="ExcludeRecursive" />
-    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GOF.1171962114.00" t="ExcludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\fjod\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
   </component>
 </project>

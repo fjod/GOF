@@ -1,6 +1,4 @@
-using System;
-
-namespace GOF.Behavioral.Visitor
+namespace GOF.Behavioral.Visitor.Teplyakov
 {
     public abstract class ConcreteElementBase
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace GOF.Behavioral.Visitor
+namespace GOF.Behavioral.Visitor.Teplyakov
 {
     public class ConcreteClientB : IVisitor
     {
@@ -21,6 +21,11 @@ namespace GOF.Behavioral.Visitor
         public void Visit(ConcreteElementC elementC)
         {
             Console.WriteLine(elementC.NumberField);
+        }
+
+        public void Visit(ConcreteElementD elementD)
+        {
+            throw new NotImplementedException();
         }
     }
 }
